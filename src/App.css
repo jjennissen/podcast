@@ -12,11 +12,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+
 .App-link {
   color: #09d3ac;
+}
+
+.box {
+  width:700px;
+  height:100px;
+}
+
+.red {
+  background:#ff0000;
 }
