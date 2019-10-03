@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import EpisodeList from "./EpisodeList";
-import Box from '@material-ui/core/Box';
 
 function App() {
   return (
@@ -9,14 +8,11 @@ function App() {
       <header className="App-header">
           <h1>Hamborne Haircut Podcast Homepage</h1>
             <h2>Episodes:</h2>
-          <EpisodeList>
-          </EpisodeList>
-          <EpisodeList>
-          </EpisodeList>
-          <EpisodeList>
-          </EpisodeList>
-          <EpisodeList>
-          </EpisodeList>
+          <EpisodeList title="1" />
+          <EpisodeList title="2"/>
+          <EpisodeList title="3" />
+          <EpisodeList title="4" />
+          <EpisodeList title="5" />
       </header>
         <body>
         </body>
