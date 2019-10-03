@@ -1,20 +1,22 @@
 import React from 'react';
 import './App.css';
-import EpisodeList from "./EpisodeList";
+import AlertList from "./AlertList";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <h1>Hamborne Haircut Podcast Homepage</h1>
-            <h2>Episodes:</h2>
-          <EpisodeList title="1" />
-          <EpisodeList title="2"/>
-          <EpisodeList title="3" />
-          <EpisodeList title="4" />
-          <EpisodeList title="5" />
+          <h1>Target+ Alert Homepage</h1>
       </header>
         <body>
+        <div className="App-body">
+            <h2>Alerts:</h2>
+            <AlertList title="1" summary=" Summary yeah yeah yeah "/>
+            <AlertList title="2"/>
+            <AlertList title="3" />
+            <AlertList title="4" />
+            <AlertList title="5" />
+        </div>
         </body>
     </div>
   );
