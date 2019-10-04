@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import AlertList from "./AlertList";
+import AlertList from "./components/AlertList";
 
 function App() {
   return (
@@ -9,14 +9,10 @@ function App() {
           <h1>Target+ Alert Homepage</h1>
       </header>
         <body>
-        <div className="App-body">
-            <h2>Alerts:</h2>
-            <AlertList title="1" summary=" Summary yeah yeah yeah "/>
-            <AlertList title="2"/>
-            <AlertList title="3" />
-            <AlertList title="4" />
-            <AlertList title="5" />
-        </div>
+            <div className="App-body">
+                <h2>Alerts:</h2>
+                    <AlertList />
+            </div>
         </body>
     </div>
   );
